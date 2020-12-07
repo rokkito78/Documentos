@@ -1,0 +1,46 @@
+// esta es la forma de recorrer todo un arreglo de inicio a fin.
+//forma  de obtener el valor dentro del for es con nombrearreglo[variable del for]
+var arreglo = [1,2,3,4,5];
+for (var x = 0; x < arreglo.length; x++) {
+  
+  console.log(arreglo[x]);
+  
+}
+//1==1 , 1!=1 , 1>1 , 1<1 , 1<=1
+if (true) {
+    console.log("ESTO ES VERDADERO");
+} else {
+    console.log("ESTO ES FALSO");
+}
+
+// definición
+var arreglo = [1,2,3,4,5];
+//             0 1 2 3 4 
+//cambiar un valor de la pocision 0
+arreglo[0] = "VALOR NUEVO"
+
+//obtener el valor de un arreglo en posición 1
+var nueva_variuable = arreglo[1];
+// O 
+console.log(arreglo[1]);
+
+arreglo.push(4); // agregar al final
+arreglo.pop(); // elimina el final
+
+var numero = 250;
+for (var x = 0; x < numero; x++) {
+  console.log("ESTO SE REPETIRA 250");
+}
+
+
+function nombre_funcion(){
+  console.log("HOLA");
+}
+nombre_funcion();
+
+function nombre_funcion(variableParametro){
+  return variableParametro;
+}
+
+var salida = nombre_funcion("HOLA");
+console.log(salida); // dice HOLA
